@@ -1,0 +1,14 @@
+Copyright (c) 2026 Coritex Studio. All rights reserved.
+
+All original Corion browser code, Corion branding, and original text and design
+in this public product repository are proprietary to their respective Corion
+rights holders. No additional license to reproduce, redistribute, modify,
+sublicense, sell, or create derivative works is granted by this notice.
+
+Rights provided by applicable law and GitHub's Terms of Service, including the
+ability to view and fork a public repository on GitHub, are unaffected.
+
+Third-party software, assets, names and marks remain the property of their
+respective owners and remain subject to their own licenses and terms. This
+notice does not replace or restrict those third-party licenses. Corion's
+browser source code and installer are not distributed in this repository.

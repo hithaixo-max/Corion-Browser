@@ -1,0 +1,16 @@
+name: Feature suggestion
+description: Explain a browsing problem Corion could solve.
+title: "[Idea]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is difficult in your current browsing workflow?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+    validations:
+      required: true

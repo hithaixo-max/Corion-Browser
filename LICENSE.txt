@@ -1,14 +1,10 @@
-Copyright (c) 2026 Coritex Studio. All rights reserved.
+Corion - Coritex Studio
+Copyright (c) 2026 Coritex Studio. All rights reserved for original Corion branding and new original material first introduced in 3.23 and later.
 
-All original Corion browser code, Corion branding, and original text and design
-in this public product repository are proprietary to their respective Corion
-rights holders. No additional license to reproduce, redistribute, modify,
-sublicense, sell, or create derivative works is granted by this notice.
+You may download, install and use the official Corion browser and local troubleshooting utility. No additional permission to use Corion branding or redistribute, modify, sell or sublicense newly reserved original material is granted by this notice, except as required by applicable law or other licenses.
 
-Rights provided by applicable law and GitHub's Terms of Service, including the
-ability to view and fork a public repository on GitHub, are unaffected.
+Legacy Corion code previously supplied under the Unlicense retains that grant. Its full original notice is preserved in LEGACY_UNLICENSE.txt in this repository and licenses/Legacy-Corion-Unlicense.txt in the installed distribution. This notice does not withdraw earlier permissions or place restrictions on that legacy material.
 
-Third-party software, assets, names and marks remain the property of their
-respective owners and remain subject to their own licenses and terms. This
-notice does not replace or restrict those third-party licenses. Corion's
-browser source code and installer are not distributed in this repository.
+Third-party software and assets retain their own copyrights, licenses and notices. No exclusive rights over Chromium, CEF, CefSharp, other bundled libraries or licensed photographs are claimed. The installed browser includes THIRD_PARTY_NOTICES.md and the accompanying licenses directory.
+
+The software is provided AS IS without warranties to the extent permitted by law. GitHub Terms of Service rights to view/fork public product repository content are unaffected. The browser source repository is not made public by this release.

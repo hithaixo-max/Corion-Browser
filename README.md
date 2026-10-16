@@ -1,92 +1,93 @@
-<p align="center"><img src="assets/corion-logo.png" width="150" alt="Corion logo"></p>
+![Corion browser by Coritex Studio](assets/corion-banner.png)
 
 # Corion Browser
 
-## Your Privacy is our main concern
+**3.23 — Public Preview · Windows 10 / 11 · x64**
 
-**A personal Windows browser by Coritex Studio, built for studying, creating and everyday browsing.**
+Your Privacy is our main concern
 
-[Visit the Corion website](https://hithaixo-max.github.io/Corion-Browser/) | [Explore the features](#what-you-can-do-with-corion) | [Share feedback](https://github.com/hithaixo-max/Corion-Browser/issues)
+A personal Windows browser by Coritex Studio. Corion combines a live homepage editor with split view, study tools, floating video and visible privacy controls. It is an early preview: expect bugs and incomplete website compatibility.
 
-Corion is an independent browser project with a dark, cave-inspired identity and a workspace you can make your own. It combines familiar browser controls with a flexible homepage, tools for research and study, and visible controls for privacy. It is an early build: features and compatibility are still being improved, and bugs are expected.
+[**Download Windows installer**](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-win-x64-setup.exe) · [**Download troubleshooter / debugger**](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-troubleshooter.zip) · [Website](https://hithaixo-max.github.io/Corion-Browser/) · [Release notes](https://github.com/hithaixo-max/Corion-Browser/releases/tag/v3.23.0)
 
-This public repository is Corion's product information and feedback space. It contains the website and documentation, not the browser's private source repository or anyone's browsing data.
+[Installer SHA-256](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-win-x64-setup.exe.sha256) · [All release checksums](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/SHA256SUMS.txt) · [Watch / download the trailer](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23-trailer.mp4)
 
-## Why we made Corion
+![Corion's cave-inspired browser workspace](assets/homepage.png)
 
-We wanted a browser that feels like a personal workspace. Studying often means keeping a lesson beside notes, returning to several sources, collecting useful links and remembering a task without losing your place. Everyday browsing should make those activities easier.
+## What is in this repository?
 
-We also wanted customization to go beyond choosing a color. Your homepage, clock, shortcuts, music and toolbar should fit the way you use your computer. Corion's historical cave imagery and original logo give it a recognizable character without relying on bright, distracting decoration.
+This is Corion's public product, release and feedback space. It contains the website, screenshots, documentation and issue templates. The browser source repository remains private. Download the application and diagnostic toolkit from [Releases](https://github.com/hithaixo-max/Corion-Browser/releases); neither is stored in the website's Git history.
 
-Privacy belongs in that workspace too. The slogan is our design priority: make privacy controls understandable, keep personal spaces separate and be honest about how features work. It is not a promise of anonymity or perfect protection. Corion is still in development, and security, compatibility and reliability require continued work.
+| Guide | What it covers |
+| --- | --- |
+| [Installation](INSTALLATION.md) | System requirements, setup, download verification, upgrades and uninstalling |
+| [Privacy and data](PRIVACY.md) | Profiles, private tabs, sign-ins, search, online features and this website |
+| [Troubleshooting](TROUBLESHOOTING.md) | Diagnostic download, startup, media, known issues and bug reports |
+| [Keyboard shortcuts](KEYBOARD_SHORTCUTS.md) | Shortcuts supported by the current browser shell |
+| [Changelog](CHANGELOG.md) | Public preview and recent browser milestones |
+| [Press kit and launch copy](PRESS_KIT.md) | Product facts, screenshots, trailer and ready-to-share announcements |
+| [Asset credits](ASSET_CREDITS.md) | Photograph attribution and asset permissions |
 
-## What you can do with Corion
+## What you can do
 
-### Browse and organize
+| Area | Available in this preview | Practical limits |
+| --- | --- | --- |
+| **Corion Mods** | Move and resize homepage elements in a live editor. Customize clocks, colors, toolbar icons, tab artwork, shortcut covers and folders. Save or Cancel edits; keep named appearance presets and import/export appearance settings. | Supported local image, GIF and video formats vary. Appearance export is not a complete profile backup. |
+| **Tabs and workspace** | Horizontal or optional vertical tabs, pinned tabs, tab previews, a tab chooser, split view, website side panels and tabs across windows. | Some sites or extensions may behave differently from other Chromium browsers. |
+| **Study and everyday tools** | Saved study sessions, page-linked notes, research sources, native reminders and a standard/scientific calculator. | Reminder alerts require Corion to be running; missed items are checked when you return. |
+| **Floating video** | Resizable windows with compact overlay controls, playback, available next-video controls, vertical volume and fullscreen. | Only supported video is capturable. Protected content may not work. The original media still decodes and supplies audio. |
+| **Profiles and sign-ins** | Separate profile spaces, local settings and libraries, and normal website sign-ins that can persist across restarts. | A website can expire its own session. Private tabs do not load normal-profile saved logins. |
+| **Corion Shield** | Request blocking and per-site Hunting / Relaxing controls, alongside website permission and history controls. | No blocker catches every ad or tracker. Private browsing is not anonymity. |
+| **Search and browsing** | Address suggestions, bookmarks, history, download controls, and Brave Search, DuckDuckGo, Google or a custom HTTPS search provider. | Optional online autocomplete can send typed text to the selected provider. It is disabled in private tabs. |
 
-- Use a familiar address bar, website suggestions, bookmarks and browsing history.
-- Choose Brave Search, DuckDuckGo, Google or a custom HTTPS search provider.
-- Keep normal website sign-ins between restarts; use separate profiles for different accounts and activities.
-- Pin tabs, use optional vertical tabs, organize shortcuts into folders and work with split view.
-- Move tabs between Corion windows and preview loaded tabs before selecting them.
+### Make your homepage your own
 
-### Build your own homepage with Corion Mods
+Corion Mods changes the workspace in place, so you can see how a clock, folder or new background fits before saving. Use local artwork, supported animated covers and optional ambient audio, then keep a named preset for later.
 
-- Move and resize homepage elements in a live editor, then Save or Cancel the design.
-- Customize clocks, homepage layout, colors, toolbar icons and tab artwork.
-- Choose images, GIFs and supported local video backgrounds, plus optional ambient audio.
-- Give individual shortcuts their own artwork, including supported animated covers, and arrange folders on the homepage or sidebar.
-- Keep named appearance presets and import or export their appearance settings.
+![The Corion Mods live editor](assets/mods-editor.png)
 
-### Keep useful tools close
+### Keep sources in sight
 
-- Use native reminders and a standard/scientific calculator.
-- Save study sessions, add page-linked notes and review research sources.
-- Manage downloads, use website side panels and inspect page permissions.
-- Watch supported video in resizable floating windows while using other tabs. The focused video view hides controls in fullscreen; Escape brings them back.
+Split view puts two pages alongside one another. Page-linked notes, saved study sessions and research sources help you return to a topic without rebuilding your workspace. Native tools and floating supported video keep useful tasks close to your tabs.
 
-### Control your browsing space
+![Corion split view with two pages alongside each other](assets/split-view.png)
 
-- Corion Shield provides request blocking and per-site controls, with clear Hunting / Relaxing states.
-- Private tabs use isolated temporary browsing sessions and a distinct private homepage. Saved normal-profile logins do not load into that private session.
-- Manage website permissions, saved logins and history through Settings. A history passcode protects the full Settings history view; address-bar recent suggestions remain available by design.
-- Profile preferences, local artwork and personal libraries are stored on your Windows computer. Optional online features still contact their providers.
+### Choose the right browsing space
 
-## Privacy, in plain language
+Normal windows in the same profile share their website session. Separate profiles let you keep accounts and activities apart. Private tabs create isolated temporary sessions with a distinct homepage; saved credentials from your normal profile are unavailable there.
 
-Private browsing does not hide you from websites, your network, an employer or an internet provider. Ad blocking cannot guarantee that every ad or tracker is blocked. Websites still receive the requests you make to them.
+![Corion's distinct private-tab homepage](assets/private-tab.png)
 
-Searches go to your selected search provider. Online autocomplete can send typed search text to that provider when enabled; it is disabled in private tabs. Optional music recognition sends a microphone sample to its recognition provider after you choose that feature and grant permission. Extensions and the sites you visit have their own behavior and privacy policies.
+A private tab does not hide your requests from a website, network administrator or internet provider. See the [privacy notes](PRIVACY.md) for the details and limits.
 
-Our product page has no Corion analytics script, advertising pixel, external font or sign-up form. GitHub hosts this repository and its Pages website and may process access information under its own privacy policy. See [Privacy and data notes](PRIVACY.md).
+## Install, upgrade or remove Corion
 
-## Current development build: 3.22 - Focused Video
+Corion targets **Windows 10 build 19041 or later / Windows 11 x64**. The application uses **.NET 8 Desktop** and the **Microsoft Visual C++ x64 runtime**. Setup checks prerequisites and handles missing runtimes; their installers may need an internet connection and administrator approval. The browser installs for the current Windows account.
 
-The floating player now gives its picture the full window, uses compact overlay controls and offers fullscreen with hidden controls. Supported YouTube capture shows a black placeholder on the source page while the original media supplies the pop-out. Closing it restores the original picture.
+1. Download the [3.23.0 setup EXE](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-win-x64-setup.exe). The ZIP is the separate troubleshooter, not the browser.
+2. Close existing Corion windows, then run setup and choose the offered shortcuts.
+3. To upgrade later, close Corion and run the newer installer. Profiles, extensions and settings are kept.
+4. To uninstall, use Windows **Settings → Apps → Installed apps → Corion → Uninstall**. Browsing data and saved logins remain on your Windows account; uninstall does not erase the profile.
 
-That original media must keep decoding for playback. Hiding the source picture does not eliminate decoding cost. Sites that require compositor-only capture keep the source visible so the floating picture is not blanked.
+Read the [full installation guide](INSTALLATION.md) for checksums, file locations and setup failures. The site does not install updates automatically.
 
-## Availability and known limits
+## Know the preview's limits
 
-Corion currently targets Windows desktop (x64). This is an early development browser, not a finished stable release. **No public installer is published in this repository yet.** Official public downloads will be listed here when available; there is no download-and-restart updater on this page.
+- **Spotify / protected media:** the shipped CEF engine does not include the licensed codecs and DRM required for full Spotify web playback. Settings offers an explicit **Microsoft Edge** fallback. Edge uses its own account session; signing in to Corion does not sign you in there.
+- **Floating video:** availability depends on the site's player and capture path. The original source continues decoding and producing audio. Supported capture may hide its picture; paths that need a visible source keep it visible.
+- **Windows Jump List:** a known unresolved issue can affect taskbar items. Use Corion's own menus and tabs when those items are unavailable.
+- **Extensions:** compatibility is incomplete. This preview does not promise support for every Chrome extension.
+- **Music recognition:** the optional feature uses an unofficial community integration and may break when the service changes. It sends a microphone sample only after the relevant action and permission.
+- **Privacy:** history controls and isolated private sessions cannot protect a compromised Windows account or device. The history passcode protects the full Settings history view; address-bar recent suggestions remain available by design.
 
-- Media compatibility depends on the website, codecs and protected-content requirements. Full Spotify web playback is not currently supported inside the shipped engine; Corion provides an explicit Microsoft Edge fallback.
-- Floating video is available only for supported media; protected content may not be capturable.
-- Music recognition uses an unofficial community integration and may stop working when its service changes.
-- Browser extensions have compatibility limits; this is not a promise that every Chrome extension works.
-- Windows taskbar Jump Lists have a known unresolved issue. Reminder alerts require Corion to be running, with missed items checked when you return.
-- Private browsing and local history controls are useful safeguards, not guarantees against a compromised device.
+## Send useful feedback
 
-## Help shape Corion
+[Report a bug](https://github.com/hithaixo-max/Corion-Browser/issues/new?template=bug_report.yml) or [suggest an improvement](https://github.com/hithaixo-max/Corion-Browser/issues/new?template=feature_request.yml). Include the Corion version from **Settings → About**, Windows version, steps to reproduce, expected result and actual result. The [troubleshooting guide](TROUBLESHOOTING.md) explains the separate diagnostic toolkit.
 
-Use [Issues](https://github.com/hithaixo-max/Corion-Browser/issues) to report a bug or suggest an improvement. Include the Corion version, your Windows version, steps to reproduce and what you expected to happen. A small recording or screenshot helps when it contains no private information.
+Review and redact every attachment before posting. Never upload passwords, cookies, tokens, account databases or complete browser profiles. GitHub issues and attachments are public. No dedicated confidential security reporting channel is configured here; do not post sensitive exploit details publicly.
 
-Do not post passwords, cookies, recovery codes, account tokens or your complete browsing history. Crop screenshots and redact personal details before uploading. This repository does not currently provide a dedicated confidential security-reporting channel; do not disclose sensitive exploit details in a public issue.
+## Rights and credits
 
-## Ownership and credits
+Corion's source repository remains private. Original Corion branding and new original product content are reserved by their rights holders. Existing third-party licenses and permissions for legacy material continue to apply; see [LICENSE.txt](LICENSE.txt). This release does not withdraw earlier grants or relicense material owned by others.
 
-**Copyright (c) 2026 Coritex Studio. All rights reserved.**
-
-Corion's original browser code, name, branding and original product-page content are proprietary. This repository does not grant an open-source license to Corion. Rights to view and fork this public repository under GitHub's Terms of Service are unaffected. See [LICENSE.txt](LICENSE.txt).
-
-Corion uses third-party software and assets, including Chromium / CEF, CefSharp and components used by Corion Shield. Their existing licenses and notices continue to apply; Coritex Studio does not claim exclusive rights to them. Third-party names are used to describe compatibility and do not imply endorsement. The public page uses the original Corion logo and no third-party cave photographs.
+Screenshots include a Bhimbetka photograph by **Bernard Gagnon**, licensed **CC BY-SA 3.0**. Coritex Studio does not claim exclusive rights to that photograph or its appearance within screenshots. [Asset credits and source](ASSET_CREDITS.md) provide attribution and license links. Chromium / CEF, CefSharp and other third-party components keep their own licenses and notices, supplied with the browser. Third-party names describe compatibility and do not imply endorsement.

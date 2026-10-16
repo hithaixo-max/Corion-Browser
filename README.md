@@ -10,7 +10,7 @@ A personal Windows browser by Coritex Studio. Corion combines a live homepage ed
 
 [**Download Windows installer**](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-win-x64-setup.exe) · [**Download troubleshooter / debugger**](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-troubleshooter.zip) · [Website](https://hithaixo-max.github.io/Corion-Browser/) · [Release notes](https://github.com/hithaixo-max/Corion-Browser/releases/tag/v3.23.0)
 
-[Installer SHA-256](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-win-x64-setup.exe.sha256) · [All release checksums](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/SHA256SUMS.txt) · [Watch / download the trailer](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23-trailer.mp4)
+[Installer SHA-256](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-win-x64-setup.exe.sha256) · [All release checksums](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/SHA256SUMS.txt) · [Watch / download the trailer](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23-trailer-v2.mp4)
 
 ![Corion's cave-inspired browser workspace](assets/homepage.png)
 

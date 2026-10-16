@@ -1,6 +1,6 @@
 # Corion press kit
 
-Product facts and prepared launch copy for **3.23 — Public Preview**. These materials are ready to share; this document does not claim that an announcement has been posted to any social account.
+Product facts and prepared launch copy for **3.23 â€” Public Preview**. These materials are ready to share; this document does not claim that an announcement has been posted to any social account.
 
 ## Product facts
 
@@ -8,7 +8,7 @@ Product facts and prepared launch copy for **3.23 — Public Preview**. These ma
 | --- | --- |
 | Product | Corion Browser |
 | Maker | Coritex Studio |
-| Current version | 3.23 — Public Preview, release v3.23.0 |
+| Current version | 3.23 â€” Public Preview, release v3.23.0 |
 | Platform | Windows 10 / 11, x64 |
 | Description | A personal Windows browser with a live homepage editor, split view, study tools, floating supported video and visible privacy controls. |
 | Status | Early public preview. Bugs and compatibility gaps are expected. |
@@ -32,7 +32,7 @@ Use the original gorilla mark without redrawing, recoloring or stretching it. Sc
 | Mods editor screenshot | [mods-editor.png](assets/mods-editor.png) |
 | Private tab screenshot | [private-tab.png](assets/private-tab.png) |
 | Split view screenshot | [split-view.png](assets/split-view.png) |
-| Product trailer | [Corion-3.23-trailer.mp4](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23-trailer.mp4) |
+| Product trailer | [Corion-3.23-trailer-v2.mp4](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23-trailer-v2.mp4) |
 
 ## Short description
 
@@ -44,7 +44,7 @@ Use the original gorilla mark without redrawing, recoloring or stretching it. Sc
 
 ## Longer announcement
 
-> We’re sharing Corion 3.23 — Public Preview, a personal Windows browser from Coritex Studio.
+> Weâ€™re sharing Corion 3.23 â€” Public Preview, a personal Windows browser from Coritex Studio.
 >
 > Corion Mods lets you move and restyle the homepage, from clock faces and folders to local backgrounds and shortcut artwork. Split view, page-linked notes, saved study sessions, reminders and a calculator keep useful tools near your tabs. Supported video can move into a floating window while you work.
 >
@@ -62,4 +62,8 @@ Use the original gorilla mark without redrawing, recoloring or stretching it. Sc
 
 Describe Corion as a public preview. Do not describe it as stable, independently audited, anonymous, fully Chrome-extension compatible or able to play every protected media service. No speed, battery-life, adoption, download-count or security benchmark is provided. Do not imply third-party endorsement or a verified publisher signature.
 
-[Overview](README.md) · [Privacy](PRIVACY.md) · [Asset credits](ASSET_CREDITS.md) · [Rights notice](LICENSE.txt)
+[Overview](README.md) Â· [Privacy](PRIVACY.md) Â· [Asset credits](ASSET_CREDITS.md) Â· [Rights notice](LICENSE.txt)
+
+## Revised commercial trailer
+
+The current trailer is a 30-second, 1920x1080 film with 60fps camera/type animation over actual Corion recordings, female synthesized narration, an original music bed and approximate captions. The initial male-voiced cut remains available as an older release asset. No AI-generated footage is used.

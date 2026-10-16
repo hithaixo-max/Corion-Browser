@@ -34,4 +34,4 @@ The split-view screenshot/footage shows actual [Lunar phase](https://en.wikipedi
 
 ## Trailer narration
 
-English narration is synthesized locally with Kokoro am_michael. The application footage is real native-window capture; no AI-generated footage or generated banner is used. Optional caption timings are approximate phrase timings, not a verbatim recording of a human presenter.
+The current 30-second commercial trailer (revision 2) uses female English narration synthesized locally with Kokoro af_heart, plus an original synthesized electronic score created for this trailer without external samples. The initial 38.4-second cut uses Kokoro am_michael and remains an older release asset. The application footage is real native-window capture; no AI-generated footage or generated banner is used. Optional caption timings are approximate phrase timings, not a verbatim recording of a human presenter.

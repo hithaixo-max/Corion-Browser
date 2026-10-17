@@ -7,13 +7,13 @@ body:
       value: |
         Thank you for trying Corion. This form and its attachments are public.
         Leave out passwords, email addresses, cookies, tokens and complete profiles.
-        The public installer is 3.23; a local 3.24 build is not the same download.
+        The public installer is 3.24 - Shield Startup Fix. Include your installed version.
   - type: input
     id: version
     attributes:
       label: Corion version
       description: Read Settings → About. Include whether you used the public installer.
-      placeholder: 3.23 Public Preview — public installer
+      placeholder: 3.24 Shield Startup Fix — public installer
     validations:
       required: true
   - type: dropdown

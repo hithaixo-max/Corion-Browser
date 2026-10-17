@@ -2,6 +2,17 @@
 
 This public changelog summarizes delivered product milestones. It is not a claim that every website or workflow has been verified. The browser remains in early development.
 
+## 3.24 - Shield Startup Fix
+
+- Prepares Shield scripts and cosmetic filtering before the first website document runs, with bounded asynchronous setup and stale-navigation guards.
+- Filters requests with a verified source frame and top-level site even when Chromium omits a public request initiator.
+- Refreshes all 25 bundled filter subscriptions; retains 213 pinned executable resources.
+- Publishes the matching Windows x64 installer and separate troubleshooting toolkit.
+
+Release compilation and package integrity are checked. Live third-party ad-blocking acceptance has not been verified for this correction. This release does not guarantee that every ad, including every YouTube variant, is blocked. Existing media, extension and Windows Jump List limitations remain.
+
+[Release v3.24.0](https://github.com/hithaixo-max/Corion-Browser/releases/tag/v3.24.0) | [Windows installer](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/Corion-3.24.0-win-x64-setup.exe) | [Troubleshooter](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/Corion-3.24.0-troubleshooter.zip)
+
 ## 3.23 — Public Preview
 
 - Public Windows x64 installer and a separate user-facing troubleshooter / debugger download.

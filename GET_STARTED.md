@@ -4,13 +4,13 @@ Corion is an early Windows browser from Coritex Studio. Try its live homepage
 editor and split view, then tell us what helped and what got in your way.
 No Corion account is required to use the browser.
 
-**Public download: 3.23 Public Preview.** The local 3.24 Shield startup fix is not
-included in this installer yet. This guide does not advertise an unreleased build.
+**Public download: 3.24 - Shield Startup Fix.** This early preview includes the
+first-document filtering correction; compatibility limits still apply.
 
 ## 1. Install the preview
 
 1. Use Windows 10 build 19041 or later, or Windows 11, on an x64 PC.
-2. Download the [Windows installer](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-win-x64-setup.exe).
+2. Download the [Windows installer](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/Corion-3.24.0-win-x64-setup.exe).
    The preview download is free. The separate troubleshooter ZIP is not the browser.
 3. Read the [installation guide](INSTALLATION.md), including prerequisites,
    checksums and the unsigned-preview notice. Follow your device's software policy.
@@ -58,9 +58,9 @@ passwords, account details, cookies, tokens and complete browser profiles.
 
 ## Known limits before you try it
 
-- The public 3.23 build can miss Shield page filters on an initial website load.
-  The 3.24 startup correction is local only at the time of this guide. Ad blocking
-  on live third-party sites has not been verified for that correction.
+- Version 3.24 corrects initial-document Shield setup and refreshes bundled lists.
+  Live third-party ad blocking has not been verified for this correction; no
+  blocker is guaranteed to catch every ad or tracker.
 - Full Spotify playback and some protected video are unavailable in the shipped
   engine. Extension compatibility is incomplete.
 - The Windows taskbar Jump List has a known unresolved issue.

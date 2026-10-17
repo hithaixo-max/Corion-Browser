@@ -2,15 +2,14 @@
 
 ## Public build and Shield startup
 
-The downloadable public installer is **3.23 Public Preview**. It can miss page
-filters and scriptlets on an initial website load. The **3.24 Shield Startup Fix**
-is currently a local build and is not included in that installer. Live third-party
-ad blocking has not been verified for the correction. Do not assume that the
-published preview blocks every ad or tracker.
+The downloadable public installer is **3.24 - Shield Startup Fix**. It corrects
+the initial-document page-filter setup that could be missed in 3.23, and includes
+refreshed bundled subscriptions. Live third-party ad blocking has not been verified
+for the correction. Do not assume that the preview blocks every ad or tracker.
 
-**Current release: 3.23 — Public Preview**
+**Current release: 3.24 — Shield Startup Fix**
 
-[Download troubleshooter / debugger](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-troubleshooter.zip) · [Release checksums](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/SHA256SUMS.txt) · [Report a bug](https://github.com/hithaixo-max/Corion-Browser/issues/new?template=bug_report.yml)
+[Download troubleshooter / debugger](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/Corion-3.24.0-troubleshooter.zip) · [Release checksums](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/SHA256SUMS.txt) · [Report a bug](https://github.com/hithaixo-max/Corion-Browser/issues/new?template=bug_report.yml)
 
 ## Start with these checks
 
@@ -22,7 +21,7 @@ published preview blocks every ad or tracker.
 
 ## Separate diagnostic toolkit
 
-The release includes **Corion-3.23.0-troubleshooter.zip**, a user-facing diagnostic toolkit. It is separate from the browser installer and does not contain private browser source or developer debugging symbols.
+The release includes **Corion-3.24.0-troubleshooter.zip**, a user-facing diagnostic toolkit. It is separate from the browser installer and does not contain private browser source or developer debugging symbols.
 
 1. Download the ZIP from the official release and compare its SHA-256 with `SHA256SUMS.txt`.
 2. Extract every file into a normal local folder. Double-click **Start-Corion-Troubleshooter.cmd**.

@@ -13,11 +13,11 @@ subject, compare two articles, or keep a reference page beside a lesson. Keep yo
 usual browser available while you explore this early preview.
 
 **[Start the ten-minute guide](GET_STARTED.md)** ·
-**[Download the Windows preview](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-win-x64-setup.exe)**
+**[Download the Windows preview](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/Corion-3.24.0-win-x64-setup.exe)**
 
-Windows 10 build 19041+ / Windows 11, x64. The public installer is 3.23 and the
-preview download is free. The local 3.24 Shield startup correction has not been
-published in an installer yet. Read the [known limits](TROUBLESHOOTING.md).
+Windows 10 build 19041+ / Windows 11, x64. The public installer is **3.24 - Shield
+Startup Fix** and the preview download is free. It includes the initial-document
+filtering correction. Read the [known limits](TROUBLESHOOTING.md).
 
 ## Share what happened
 

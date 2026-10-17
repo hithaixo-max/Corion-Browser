@@ -2,7 +2,7 @@
 
 # Corion Browser
 
-**3.23 — Public Preview · Windows 10 / 11 · x64**
+**3.24 — Shield Startup Fix · Windows 10 / 11 · x64**
 
 Your Privacy is our main concern
 
@@ -10,14 +10,16 @@ A personal Windows browser by Coritex Studio. Corion combines a live homepage ed
 
 **New here? [Try one ten-minute task](GET_STARTED.md)** or [help shape Corion](EARLY_TESTERS.md).
 The preview download is free and no Corion account is required. The public installer
-is **3.23**; the newer **3.24 Shield startup correction is local only**, not part of
-that installer yet.
+is **3.24 - Shield Startup Fix**, including the first-document filtering correction.
+See the [changelog](CHANGELOG.md) for the changes and verification limits.
 
 [Discuss your setup and first impressions](https://github.com/hithaixo-max/Corion-Browser/discussions).
 
-[**Download Windows installer**](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-win-x64-setup.exe) · [**Download troubleshooter / debugger**](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-troubleshooter.zip) · [Website](https://hithaixo-max.github.io/Corion-Browser/) · [Release notes](https://github.com/hithaixo-max/Corion-Browser/releases/tag/v3.23.0)
+[**Download Windows installer**](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/Corion-3.24.0-win-x64-setup.exe) · [**Download troubleshooter / debugger**](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/Corion-3.24.0-troubleshooter.zip) · [Website](https://hithaixo-max.github.io/Corion-Browser/) · [Release notes](https://github.com/hithaixo-max/Corion-Browser/releases/tag/v3.24.0)
 
-[Installer SHA-256](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-win-x64-setup.exe.sha256) · [All release checksums](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/SHA256SUMS.txt) · [Watch / download the trailer](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23-trailer-v2.mp4)
+[Installer SHA-256](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/Corion-3.24.0-win-x64-setup.exe.sha256) · [All release checksums](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/SHA256SUMS.txt) · [Watch / download the trailer](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23-trailer-v2.mp4)
+
+The trailer and screenshots were recorded in 3.23; they show the existing interface, not a separate 3.24 recording.
 
 ![Corion's cave-inspired browser workspace](assets/homepage.png)
 
@@ -73,7 +75,7 @@ A private tab does not hide your requests from a website, network administrator 
 
 Corion targets **Windows 10 build 19041 or later / Windows 11 x64**. The application uses **.NET 8 Desktop** and the **Microsoft Visual C++ x64 runtime**. Setup checks prerequisites and handles missing runtimes; their installers may need an internet connection and administrator approval. The browser installs for the current Windows account.
 
-1. Download the [3.23.0 setup EXE](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-win-x64-setup.exe). The ZIP is the separate troubleshooter, not the browser.
+1. Download the [3.24.0 setup EXE](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/Corion-3.24.0-win-x64-setup.exe). The ZIP is the separate troubleshooter, not the browser.
 2. Close existing Corion windows, then run setup and choose the offered shortcuts.
 3. To upgrade later, close Corion and run the newer installer. Profiles, extensions and settings are kept.
 4. To uninstall, use Windows **Settings → Apps → Installed apps → Corion → Uninstall**. Browsing data and saved logins remain on your Windows account; uninstall does not erase the profile.

@@ -1,8 +1,8 @@
 # Install Corion
 
-**3.23 — Public Preview · Windows x64**
+**3.24 — Shield Startup Fix · Windows x64**
 
-[Download installer](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-win-x64-setup.exe) · [Release notes](https://github.com/hithaixo-max/Corion-Browser/releases/tag/v3.23.0) · [Troubleshooting](TROUBLESHOOTING.md)
+[Download installer](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/Corion-3.24.0-win-x64-setup.exe) · [Release notes](https://github.com/hithaixo-max/Corion-Browser/releases/tag/v3.24.0) · [Troubleshooting](TROUBLESHOOTING.md)
 
 ## Requirements
 
@@ -21,19 +21,19 @@ This is an early preview. Website compatibility, extensions, media playback and 
 
 ## Download and verify
 
-Official assets for this version are under [release v3.23.0](https://github.com/hithaixo-max/Corion-Browser/releases/tag/v3.23.0):
+Official assets for this version are under [release v3.24.0](https://github.com/hithaixo-max/Corion-Browser/releases/tag/v3.24.0):
 
 | File | Purpose |
 | --- | --- |
-| [Corion-3.23.0-win-x64-setup.exe](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-win-x64-setup.exe) | Browser installer |
-| [Corion-3.23.0-win-x64-setup.exe.sha256](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-win-x64-setup.exe.sha256) | Expected installer SHA-256 |
-| [Corion-3.23.0-troubleshooter.zip](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-troubleshooter.zip) | Separate diagnostic toolkit |
-| [SHA256SUMS.txt](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/SHA256SUMS.txt) | Checksums for release assets |
+| [Corion-3.24.0-win-x64-setup.exe](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/Corion-3.24.0-win-x64-setup.exe) | Browser installer |
+| [Corion-3.24.0-win-x64-setup.exe.sha256](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/Corion-3.24.0-win-x64-setup.exe.sha256) | Expected installer SHA-256 |
+| [Corion-3.24.0-troubleshooter.zip](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/Corion-3.24.0-troubleshooter.zip) | Separate diagnostic toolkit |
+| [SHA256SUMS.txt](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/SHA256SUMS.txt) | Checksums for release assets |
 
 To check the downloaded installer, open PowerShell in the download folder and run:
 
 ```powershell
-Get-FileHash -LiteralPath '.\Corion-3.23.0-win-x64-setup.exe' -Algorithm SHA256
+Get-FileHash -LiteralPath '.\Corion-3.24.0-win-x64-setup.exe' -Algorithm SHA256
 ```
 
 Compare the complete `Hash` value with the published `.sha256` file. If it differs, stop and download the file again from the official release. A matching checksum confirms that the file matches the published download; it is not a publisher code signature. No verified-publisher or stable-release claim is made for this preview. If Windows shows a security or publisher warning, review the file and its source before deciding whether to proceed; do not disable Windows protection globally.
@@ -44,7 +44,7 @@ Compare the complete `Hash` value with the published `.sha256` file. If it diffe
 2. Run the setup EXE, review the install location, and choose the offered desktop and Start menu shortcuts.
 3. Allow setup to handle any missing Microsoft prerequisites. Cancelling a prerequisite stops setup before application payload changes.
 4. Finish the wizard. If a runtime installer requests a restart, restart Windows before opening Corion.
-5. Open Corion from the installed shortcut. Check **Settings → About** for **3.23 — Public Preview**.
+5. Open Corion from the installed shortcut. Check **Settings → About** for **3.24 — Shield Startup Fix**.
 
 The default application directory is `%LOCALAPPDATA%\Programs\Corion`. Corion's personal data lives separately under `%LOCALAPPDATA%\Corion`. Do not store your own files in the application directory or edit its installation metadata.
 

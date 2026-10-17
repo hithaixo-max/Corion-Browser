@@ -1,11 +1,11 @@
 # Corion press kit
 
-Product facts and prepared launch copy for **3.23 — Public Preview**. These materials are ready to share; this document does not claim that an announcement has been posted to any social account.
+Product facts and prepared launch copy for **3.24 — Shield Startup Fix**. These materials are ready to share; this document does not claim that an announcement has been posted to any social account.
 
 ## Try Corion and share feedback
 
-The public Windows installer is **3.23**. The **3.24 Shield startup correction is
-local only** and is not part of that download yet. Use the
+The public Windows installer is **3.24 - Shield Startup Fix**, including the
+initial-document filtering correction and refreshed bundled lists. Use the
 [ten-minute guide](GET_STARTED.md) and [early-tester invitation](EARLY_TESTERS.md)
 when sharing the preview. No Corion account or email waitlist is required.
 
@@ -15,14 +15,14 @@ when sharing the preview. No Corion account or email waitlist is required.
 | --- | --- |
 | Product | Corion Browser |
 | Maker | Coritex Studio |
-| Current version | 3.23 — Public Preview, release v3.23.0 |
+| Current version | 3.24 — Shield Startup Fix, release v3.24.0 |
 | Platform | Windows 10 / 11, x64 |
 | Description | A personal Windows browser with a live homepage editor, split view, study tools, floating supported video and visible privacy controls. |
 | Status | Early public preview. Bugs and compatibility gaps are expected. |
 | Website | [hithaixo-max.github.io/Corion-Browser](https://hithaixo-max.github.io/Corion-Browser/) |
 | Public repository | [github.com/hithaixo-max/Corion-Browser](https://github.com/hithaixo-max/Corion-Browser) |
-| Download | [Windows installer](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-win-x64-setup.exe) |
-| Diagnostics | [Separate troubleshooter / debugger](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-troubleshooter.zip) |
+| Download | [Windows installer](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/Corion-3.24.0-win-x64-setup.exe) |
+| Diagnostics | [Separate troubleshooter / debugger](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.24.0/Corion-3.24.0-troubleshooter.zip) |
 
 Corion's browser source repository remains private. This public repository hosts the product site, documentation, public releases and feedback. Existing legacy and third-party license permissions continue to apply; see the rights notice.
 
@@ -39,19 +39,19 @@ Use the original gorilla mark without redrawing, recoloring or stretching it. Sc
 | Mods editor screenshot | [mods-editor.png](assets/mods-editor.png) |
 | Private tab screenshot | [private-tab.png](assets/private-tab.png) |
 | Split view screenshot | [split-view.png](assets/split-view.png) |
-| Product trailer | [Corion-3.23-trailer-v2.mp4](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23-trailer-v2.mp4) |
+| Product trailer | [Corion-3.23-trailer-v2.mp4 (recorded in 3.23)](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23-trailer-v2.mp4) |
 
 ## Short description
 
-> Corion is a personal Windows browser by Coritex Studio. Customize a live homepage, keep sources beside your work with split view, save study sessions, and use isolated private tabs. Version 3.23 is an early public preview for Windows x64.
+> Corion is a personal Windows browser by Coritex Studio. Customize a live homepage, keep sources beside your work with split view, save study sessions, and use isolated private tabs. Version 3.24 is an early public preview for Windows x64.
 
 ## Short launch post
 
-> Corion 3.23 Public Preview is available for Windows 10 / 11 x64. Make the homepage your own, work in split view, keep study notes close, and pop out supported video. Installer, diagnostics and known limits: https://hithaixo-max.github.io/Corion-Browser/
+> Corion 3.24 Shield Startup Fix is available for Windows 10 / 11 x64. Make the homepage your own, work in split view, keep study notes close, and pop out supported video. Installer, diagnostics and known limits: https://hithaixo-max.github.io/Corion-Browser/
 
 ## Longer announcement
 
-> We’re sharing Corion 3.23 — Public Preview, a personal Windows browser from Coritex Studio.
+> We’re sharing Corion 3.24 — Shield Startup Fix, a personal Windows browser from Coritex Studio.
 >
 > Corion Mods lets you move and restyle the homepage, from clock faces and folders to local backgrounds and shortcut artwork. Split view, page-linked notes, saved study sessions, reminders and a calculator keep useful tools near your tabs. Supported video can move into a floating window while you work.
 >
@@ -63,7 +63,7 @@ Use the original gorilla mark without redrawing, recoloring or stretching it. Sc
 
 ## Video caption
 
-> A look at Corion 3.23 Public Preview: a configurable homepage, split view, private tabs and tools for everyday browsing. Available for Windows 10 / 11 x64. Early preview; compatibility limits apply. https://hithaixo-max.github.io/Corion-Browser/
+> Recorded in Corion 3.23 (current download: 3.24 Shield Startup Fix): a configurable homepage, split view, private tabs and tools for everyday browsing. Available for Windows 10 / 11 x64. Early preview; compatibility limits apply. https://hithaixo-max.github.io/Corion-Browser/
 
 ## Claims to keep accurate
 

@@ -24,7 +24,7 @@ The full Settings history view can be protected by its optional passcode. That l
 
 Queries go to the selected search provider. When online search suggestions are enabled, typed search text may be sent to that provider; private tabs disable online suggestions. Websites receive the network requests made to them. Extensions can have their own permissions and network behavior. Optional music recognition sends a microphone sample to its recognition service after permission and a user action. Its community integration is unofficial and may change.
 
-Corion Shield and per-site permission controls provide safeguards, but neither guarantees that every ad, tracker, permission misuse or security issue is prevented. Corion 3.23 is a public preview and remains in early development.
+Corion Shield and per-site permission controls provide safeguards, but neither guarantees that every ad, tracker, permission misuse or security issue is prevented. Corion 3.24 is a public preview and remains in early development.
 
 ## Installation and retained data
 

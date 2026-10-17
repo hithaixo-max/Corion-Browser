@@ -8,6 +8,13 @@ Your Privacy is our main concern
 
 A personal Windows browser by Coritex Studio. Corion combines a live homepage editor with split view, study tools, floating video and visible privacy controls. It is an early preview: expect bugs and incomplete website compatibility.
 
+**New here? [Try one ten-minute task](GET_STARTED.md)** or [help shape Corion](EARLY_TESTERS.md).
+The preview download is free and no Corion account is required. The public installer
+is **3.23**; the newer **3.24 Shield startup correction is local only**, not part of
+that installer yet.
+
+[Discuss your setup and first impressions](https://github.com/hithaixo-max/Corion-Browser/discussions).
+
 [**Download Windows installer**](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-win-x64-setup.exe) · [**Download troubleshooter / debugger**](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-troubleshooter.zip) · [Website](https://hithaixo-max.github.io/Corion-Browser/) · [Release notes](https://github.com/hithaixo-max/Corion-Browser/releases/tag/v3.23.0)
 
 [Installer SHA-256](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-win-x64-setup.exe.sha256) · [All release checksums](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/SHA256SUMS.txt) · [Watch / download the trailer](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23-trailer-v2.mp4)
@@ -21,6 +28,8 @@ This is Corion's public product, release and feedback space. It contains the web
 | Guide | What it covers |
 | --- | --- |
 | [Installation](INSTALLATION.md) | System requirements, setup, download verification, upgrades and uninstalling |
+| [First ten minutes](GET_STARTED.md) | A short introduction to the homepage editor, split view and private tabs |
+| [Early testers](EARLY_TESTERS.md) | Try one real task and share voluntary public feedback |
 | [Privacy and data](PRIVACY.md) | Profiles, private tabs, sign-ins, search, online features and this website |
 | [Troubleshooting](TROUBLESHOOTING.md) | Diagnostic download, startup, media, known issues and bug reports |
 | [Keyboard shortcuts](KEYBOARD_SHORTCUTS.md) | Shortcuts supported by the current browser shell |

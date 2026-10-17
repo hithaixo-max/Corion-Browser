@@ -1,0 +1,69 @@
+name: First impressions
+description: Tell us what you tried in Corion and whether you would use it again.
+title: "[First impressions]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for trying Corion. This form and its attachments are public.
+        Leave out passwords, email addresses, cookies, tokens and complete profiles.
+        The public installer is 3.23; a local 3.24 build is not the same download.
+  - type: input
+    id: version
+    attributes:
+      label: Corion version
+      description: Read Settings → About. Include whether you used the public installer.
+      placeholder: 3.23 Public Preview — public installer
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11 x64
+        - Windows 10 x64
+        - Other / not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: task
+    attributes:
+      label: What did you try?
+      options:
+        - Homepage editor / customization
+        - Split view / studying with sources
+        - Tabs / profiles / private tabs
+        - Installation / first launch
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: What worked and what got in your way?
+      description: A few sentences are enough. For a specific bug, include steps to reproduce it.
+    validations:
+      required: true
+  - type: dropdown
+    id: return
+    attributes:
+      label: Would you try it again?
+      options:
+        - "Yes"
+        - Maybe, if an issue is fixed
+        - Probably not
+        - I could not get it running
+  - type: dropdown
+    id: discovery
+    attributes:
+      label: Where did you hear about Corion? (optional)
+      description: This is voluntary; there is no browser tracking behind this question.
+      options:
+        - GitHub
+        - Reddit
+        - X
+        - Video / creator
+        - Friend / community
+        - Search engine
+        - Somewhere else

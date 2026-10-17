@@ -1,5 +1,13 @@
 # Troubleshooting Corion
 
+## Public build and Shield startup
+
+The downloadable public installer is **3.23 Public Preview**. It can miss page
+filters and scriptlets on an initial website load. The **3.24 Shield Startup Fix**
+is currently a local build and is not included in that installer. Live third-party
+ad blocking has not been verified for the correction. Do not assume that the
+published preview blocks every ad or tracker.
+
 **Current release: 3.23 — Public Preview**
 
 [Download troubleshooter / debugger](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/Corion-3.23.0-troubleshooter.zip) · [Release checksums](https://github.com/hithaixo-max/Corion-Browser/releases/download/v3.23.0/SHA256SUMS.txt) · [Report a bug](https://github.com/hithaixo-max/Corion-Browser/issues/new?template=bug_report.yml)

@@ -8,6 +8,12 @@ The static Corion product site contains local HTML, CSS, original branding and b
 
 The native trailer player uses a local screenshot as its poster and `preload="none"`. Playing it loads the MP4 from the public GitHub release and its release-asset service. Downloading the installer, diagnostic toolkit or trailer also contacts GitHub. The page does not automatically download or install application updates.
 
+Social sharing metadata and a sitemap describe this public page. A public IndexNow
+verification file permits notifying participating search engines when the landing
+page changes. Such a submission contains the public URL and website verification
+value, not visitor or browser usage data. It adds no analytics script, advertising
+pixel or fingerprinting.
+
 GitHub hosts the repository and GitHub Pages site. GitHub may process IP addresses and other access information under [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). Following a link to another website subjects that visit to the other service's practices. Publishing a GitHub issue or attachment makes its contents public.
 
 ## The browser

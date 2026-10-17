@@ -1,6 +1,13 @@
 # Corion press kit
 
-Product facts and prepared launch copy for **3.23 â€” Public Preview**. These materials are ready to share; this document does not claim that an announcement has been posted to any social account.
+Product facts and prepared launch copy for **3.23 — Public Preview**. These materials are ready to share; this document does not claim that an announcement has been posted to any social account.
+
+## Try Corion and share feedback
+
+The public Windows installer is **3.23**. The **3.24 Shield startup correction is
+local only** and is not part of that download yet. Use the
+[ten-minute guide](GET_STARTED.md) and [early-tester invitation](EARLY_TESTERS.md)
+when sharing the preview. No Corion account or email waitlist is required.
 
 ## Product facts
 
@@ -8,7 +15,7 @@ Product facts and prepared launch copy for **3.23 â€” Public Preview**. The
 | --- | --- |
 | Product | Corion Browser |
 | Maker | Coritex Studio |
-| Current version | 3.23 â€” Public Preview, release v3.23.0 |
+| Current version | 3.23 — Public Preview, release v3.23.0 |
 | Platform | Windows 10 / 11, x64 |
 | Description | A personal Windows browser with a live homepage editor, split view, study tools, floating supported video and visible privacy controls. |
 | Status | Early public preview. Bugs and compatibility gaps are expected. |
@@ -44,7 +51,7 @@ Use the original gorilla mark without redrawing, recoloring or stretching it. Sc
 
 ## Longer announcement
 
-> Weâ€™re sharing Corion 3.23 â€” Public Preview, a personal Windows browser from Coritex Studio.
+> We’re sharing Corion 3.23 — Public Preview, a personal Windows browser from Coritex Studio.
 >
 > Corion Mods lets you move and restyle the homepage, from clock faces and folders to local backgrounds and shortcut artwork. Split view, page-linked notes, saved study sessions, reminders and a calculator keep useful tools near your tabs. Supported video can move into a floating window while you work.
 >
@@ -62,7 +69,7 @@ Use the original gorilla mark without redrawing, recoloring or stretching it. Sc
 
 Describe Corion as a public preview. Do not describe it as stable, independently audited, anonymous, fully Chrome-extension compatible or able to play every protected media service. No speed, battery-life, adoption, download-count or security benchmark is provided. Do not imply third-party endorsement or a verified publisher signature.
 
-[Overview](README.md) Â· [Privacy](PRIVACY.md) Â· [Asset credits](ASSET_CREDITS.md) Â· [Rights notice](LICENSE.txt)
+[Overview](README.md) · [Privacy](PRIVACY.md) · [Asset credits](ASSET_CREDITS.md) · [Rights notice](LICENSE.txt)
 
 ## Revised commercial trailer
 

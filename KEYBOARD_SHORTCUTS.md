@@ -32,3 +32,9 @@ Reload is intentionally disabled on Corion's own homepage. Recently closed priva
 The shell shortcut mappings were checked against the current implementation for this documentation. This table does not claim a new live keyboard interaction check for every row.
 
 [Back to the overview](README.md) · [Troubleshooting](TROUBLESHOOTING.md)
+
+## Added in 4.0
+
+- Ctrl+K: command palette.
+- Ctrl+Shift+L: local library.
+- Shift+Esc: browser health.

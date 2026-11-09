@@ -2,6 +2,16 @@
 
 This public changelog summarizes delivered product milestones. It is not a claim that every website or workflow has been verified. The browser remains in early development.
 
+## 4.0 — Finishing Touches
+
+- Adds dormant restoration, conservative automatic tab management and bounded background work.
+- Adds command palette, unified library, workspaces, offline text reading, setup and local backup/recovery tools.
+- Refreshes interface/accessibility and adds browser health/site storage controls.
+- Upgrades to .NET 10 and Chromium 156 via CefSharp.
+- Ships an unsigned Windows x64 installer and refreshed GitHub Pages website. Updates remain manual; remote diagnostics are not deployed.
+
+See [4.0 release notes](RELEASE_NOTES_4.0.md) for verification and limitations.
+
 ## 3.24 - Shield Startup Fix
 
 - Prepares Shield scripts and cosmetic filtering before the first website document runs, with bounded asynchronous setup and stale-navigation guards.

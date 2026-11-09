@@ -24,16 +24,20 @@ The full Settings history view can be protected by its optional passcode. That l
 
 Queries go to the selected search provider. When online search suggestions are enabled, typed search text may be sent to that provider; private tabs disable online suggestions. Websites receive the network requests made to them. Extensions can have their own permissions and network behavior. Optional music recognition sends a microphone sample to its recognition service after permission and a user action. Its community integration is unofficial and may change.
 
-Corion Shield and per-site permission controls provide safeguards, but neither guarantees that every ad, tracker, permission misuse or security issue is prevented. Corion 3.24 is a public preview and remains in early development.
+Corion Shield and per-site permission controls provide safeguards, but neither guarantees that every ad, tracker, permission misuse or security issue is prevented. Corion 4.0 is an early release and remains in early development.
 
 ## Installation and retained data
 
 The browser installs under `%LOCALAPPDATA%\Programs\Corion` for the current Windows account. Profile data lives separately under `%LOCALAPPDATA%\Corion`, including the default `Shell` data directory and additional profile directories. Upgrading keeps profiles and settings. Uninstalling removes the application but retains browsing data and saved logins. See [Installation](INSTALLATION.md) before removing retained data or making a private backup.
 
-## Optional diagnostic toolkit
+## Historical 3.24 diagnostic toolkit
 
 The separately downloaded troubleshooter / debugger performs read-only diagnostics and can save a JSON report for your review. Reports contain fixed file names, check statuses, numeric versions, architecture and a creation timestamp. They exclude account and computer names, full paths, raw browser logs, profile contents, history and credentials. The tool does not upload reports or access the network. Review a report before choosing to post it. See [Troubleshooting](TROUBLESHOOTING.md).
 
 ## Reporting problems
 
-Never upload passwords, cookies, tokens, recovery codes or raw account databases to a public issue. Redact screenshots and recordings. A confidential security reporting address is not configured in this repository, so do not post sensitive exploit details publicly.
+Never upload passwords, cookies, tokens, recovery codes or raw account databases to a public issue. Redact screenshots and recordings. Use the private GitHub vulnerability reporting route described in SECURITY.md for sensitive security reports.
+
+## 4.0 services
+
+Automatic update delivery is not configured and remote crash/usage reporting is not deployed. Updates are downloaded manually. The 4.0 engine is Chromium 156 via CefSharp and requires the .NET 10 Desktop Runtime. Translation sends page information to Google after the consent step. Selective backups contain local data chosen by the user; protect backup files as private information.

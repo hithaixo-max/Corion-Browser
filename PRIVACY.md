@@ -22,7 +22,7 @@ Normal profiles keep separate accounts, browsing history, bookmarks and settings
 
 The full Settings history view can be protected by its optional passcode. That lock does not hide recent address-bar suggestions, encrypt every browser record or protect a compromised Windows account. Local storage does not automatically mean every item is encrypted or immune to other software.
 
-Queries go to the selected search provider. When online search suggestions are enabled, typed search text may be sent to that provider; private tabs disable online suggestions. Websites receive the network requests made to them. Extensions can have their own permissions and network behavior. Optional music recognition sends a microphone sample to its recognition service after permission and a user action. Its community integration is unofficial and may change.
+Queries go to the selected search provider. When online search suggestions are enabled, typed search text may be sent to that provider; private tabs disable online suggestions. Websites receive the network requests made to them. Extensions can have their own permissions and network behavior. Optional music recognition sends an acoustic fingerprint derived from a microphone sample to its recognition service after permission and a user action. Its community integration is unofficial and may change.
 
 Corion Shield and per-site permission controls provide safeguards, but neither guarantees that every ad, tracker, permission misuse or security issue is prevented. Corion 4.0 is an early release and remains in early development.
 
@@ -41,3 +41,13 @@ Never upload passwords, cookies, tokens, recovery codes or raw account databases
 ## 4.0 services
 
 Automatic update delivery is not configured and remote crash/usage reporting is not deployed. Updates are downloaded manually. The 4.0 engine is Chromium 156 via CefSharp and requires the .NET 10 Desktop Runtime. Translation sends page information to Google after the consent step. Selective backups contain local data chosen by the user; protect backup files as private information.
+
+## Local diagnostics in 4.0
+
+The reviewed browser code has no automatic Corion crash or usage-report uploader. Managed crash.log files omit free-form context and exception messages and are bounded to 1 MiB; older logs and native Chromium cef.log files are separate and can contain personal information. Review logs before sharing. Optional online search suggestions start off in newly created profiles; existing saved choices are preserved. This source statement does not describe an independently deployed telemetry backend.
+
+## Workspaces, offline reading and translation in 4.0
+
+Named workspaces and extracted offline articles are stored locally in this profile until deleted. Workspaces omit private/local/authentication pages and do not copy cookies or credentials. Offline articles are text copies with their original URL and saved date; opening the original makes a normal website request. Unified Library searches local content on request; opening a result or rerunning a saved query can contact a website/search provider. Saved history/research stays hidden while its lock is enabled.
+
+Translation is an explicit online action. A confirmation previews the page URL or selected text before opening Google Translate; that content is sent to Google only when confirmed. Source tabs remain open. Private translation uses a separate private tab but does not make the request anonymous. There is no automatic page translation or automatic upload of saved reading collections.

@@ -2,6 +2,16 @@
 
 This public changelog summarizes delivered product milestones. It is not a claim that every website or workflow has been verified. The browser remains in early development.
 
+## 4.10 — Bug Sweep
+
+- Fixes Reader Mode, Save article and Translate closing the browser when a slow page times out or has no script context yet.
+- Handles late failures of abandoned page and DevTools tasks instead of logging unobserved task errors.
+- Adds a ten-second Undo for removing a Watch or deleting a saved page note.
+- Adds Test saved rules to Download rules and one summary notification when several downloads finish together.
+- Rebuilds every automated test project for .NET 10; updates the unsigned Windows x64 installer and website.
+
+See [4.10 release notes](RELEASE_NOTES_4.10.md) for verification and limitations.
+
 ## 4.0 — Finishing Touches
 
 - Adds dormant restoration, conservative automatic tab management and bounded background work.
